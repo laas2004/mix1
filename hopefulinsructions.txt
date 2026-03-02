@@ -8,6 +8,8 @@ deactivate(when done )
 
 other:
 python ingest_to_chroma.py
+python debug_chroma.py 
+python query.py
 
 
 might have to run sometime incase of error in other terminal
