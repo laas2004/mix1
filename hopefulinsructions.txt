@@ -1,0 +1,31 @@
+python -m venv venv  (to create a new environment, not to be run everytime)
+.\venv\Scripts\Activate
+pip install -r requirements.txt (to set the environment with needed tools, not to be run everytime)
+.\venv\Scripts\Activate.ps1
+streamlit run ui.py
+deactivate(when done )
+
+
+other:
+python ingest_to_chroma.py
+
+
+might have to run sometime incase of error in other terminal
+& C:\Users\laasy\OneDrive\Desktop\mix1\venv\Scripts\Activate.ps1
+ollama run llama3.2
+
+
+
+for new ui:
+terminal 1-
+.\venv\Scripts\Activate
+.\venv\Scripts\Activate.ps1
+python api_bridge.py --no-reload[D  (or) python api_server.py
+deactivate(when done)
+
+terminal 2-
+deactivate
+cd app
+npm run dev(click the link that opens here)
+
+

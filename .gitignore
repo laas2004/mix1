@@ -1,0 +1,36 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# =========================
+# Virtual environments
+# =========================
+venv/
+.env/
+
+# =========================
+# Streamlit
+# =========================
+.streamlit/
+
+# =========================
+# Project data (DO NOT COMMIT)
+# =========================
+data/docs/*
+data/cache/*
+
+# Keep folders but ignore contents
+!data/docs/.gitkeep
+!data/cache/.gitkeep
+
+# =========================
+# OS / Editor junk
+# =========================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

@@ -1,0 +1,13 @@
+# req for pragya_project
+streamlit
+sentence-transformers
+faiss-cpu
+Pymupdf
+numpy
+# req for pdfread
+pdfplumber
+pytesseract
+pdf2image
+pillow
+chromadb
+langchain
