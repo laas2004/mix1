@@ -136,22 +136,13 @@ The UI is intentionally minimal and functional.
 ```bash
 pip install -r requirements.txt
 
-###2️⃣ Start Ollama and Pull a Model
-ollama pull tinyllama:1.1b
-ollama run tinyllama:1.1b
-(Model can be changed depending on available RAM)
+terminal 1-
+.\venv\Scripts\Activate
+.\venv\Scripts\Activate.ps1
+python api_bridge.py --no-reload[D  (or) python api_server.py
+deactivate(when done)
 
-3️⃣ Launch the App
-streamlit run ui.py
-Open your browser at:
-http://localhost:8501
-
-
-to run:
-python -m venv venv
-.\venv\Scripts\activate
-pip install -r requirements.txt
-ollama pull tinyllama:1.1b
-ollama run tinyllama:1.1b
-/bye
-streamlit run ui.py
+terminal 2-
+deactivate
+cd app
+npm run dev(click the link that opens here)
